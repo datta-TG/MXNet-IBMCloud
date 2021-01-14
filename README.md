@@ -66,16 +66,16 @@ The following checkmark and the word 'normal' will appear once the Kubernetes Cl
 
 ![Screenshot](mxn1.PNG)
 
-* A new window opens, select the cluster, and then select the workspace you want Apache MXNet to be installed. You can also write a new workspace. In this case, we will use the previously created _storage-example_ workspace. Type a workspace name under 'Configure your workspace', accept the terms and click on *Install*. You can modify the different installation parameters at the bottom. We will leave them by default as shown below, but you can read more about setting up the parameters [here](https://cloud.ibm.com/catalog/content/elasticsearch "here").
+* A new window opens, select the cluster, and then select the workspace you want Apache MXNet to be installed. You can also write a new workspace. In this case, we will use the previously created _storage-example_ workspace. Type a workspace name under 'Configure your workspace', accept the terms and click on *Install*. You can modify the different installation parameters at the bottom. We will leave them by default as shown below, but you can read more about setting up the parameters [here](https://cloud.ibm.com/catalog/content/mxnet "here").
 
-![Screenshot](mxn2.png)
+![Screenshot](mxn2.PNG)
 
 
 ## Step 4: Verify Installation
 
 * Go to *Resources List* in the Left Navigation Menu and click on *Kubernetes*.
 
-![Screenshot](test11.png)
+![Screenshot](test1.PNG)
 
 * Click the *Actions* button and select *Web terminal*.
 
@@ -91,21 +91,21 @@ The following checkmark and the word 'normal' will appear once the Kubernetes Cl
 
 `$ kubectl get ns`
 
-![Screenshot](testmxn1.png)
+![Screenshot](testmxn1.PNG)
 
 * You can then obtain more data about the service and it's pods. In this case, we want to know the pods of the *storage-example* service.
 
 `$ kubectl get pod -n NAMESERVICE`
 
-![Screenshot](testmxn2.png)
+![Screenshot](testmxn2.PNG)
 
 * Select the pod within your service using bash so you can start using Apache MXNet from the terminal.
 
 `$ kubectl exec --stdin --tty PODNAME -n NAMESPACE -- /bin/bash`
 
-![Screenshot](testmxn3.png)
+![Screenshot](testmxn3.PNG)
 
-Apache MXNet is a fast and scalable training and inference framework with an easy-to-use, concise API for machine learning. It supports a flexible programming model and multiple programming languages, including Python. To check if Apache MXNet is active you can write Python, and use it as a regular Python installation.
+Apache MXNet is a deep learning platform that accelerates the transition from research prototyping to production deployment. It is built for full integration into Python that enables you to use it with its libraries and main packages. To check if Apache MXNet is active you can write Python, and use it as a regular Python installation.
 
 `$ python`
 
