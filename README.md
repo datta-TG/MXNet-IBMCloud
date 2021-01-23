@@ -75,7 +75,7 @@ The following checkmark and the word 'normal' will appear once the Kubernetes Cl
 
 * Go to *Resources List* in the Left Navigation Menu and click on *Kubernetes*.
 
-![Screenshot](test1.PNG)
+![Screenshot](test1.png)
 
 * Click the *Actions* button and select *Web terminal*.
 
@@ -101,14 +101,12 @@ The following checkmark and the word 'normal' will appear once the Kubernetes Cl
 
 * Select the pod within your service using bash so you can start using Apache MXNet from the terminal.
 
+* Apache MXNet is a deep learning platform that accelerates the transition from research prototyping to production deployment. It is built for full integration into Python that enables you to use it with its libraries and main packages. To check if Apache MXNet is active you can write Python, and use it as a regular Python installation.
+
 `$ kubectl exec --stdin --tty PODNAME -n NAMESPACE -- /bin/bash`
-
-![Screenshot](textmxn3.PNG)
-
-Apache MXNet is a deep learning platform that accelerates the transition from research prototyping to production deployment. It is built for full integration into Python that enables you to use it with its libraries and main packages. To check if Apache MXNet is active you can write Python, and use it as a regular Python installation.
 
 `$ python`
 
-![Screenshot](textmxn4.PNG)
+![Screenshot](textmxn3.PNG)
 
 You have finished the installation. You can read more about Apache MXNet to keep learning and programming.
