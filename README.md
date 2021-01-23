@@ -91,24 +91,24 @@ The following checkmark and the word 'normal' will appear once the Kubernetes Cl
 
 `$ kubectl get ns`
 
-![Screenshot](testmxn1.PNG)
+![Screenshot](textmxn1.PNG)
 
 * You can then obtain more data about the service and it's pods. In this case, we want to know the pods of the *storage-example* service.
 
 `$ kubectl get pod -n NAMESERVICE`
 
-![Screenshot](testmxn2.PNG)
+![Screenshot](textmxn2.PNG)
 
 * Select the pod within your service using bash so you can start using Apache MXNet from the terminal.
 
 `$ kubectl exec --stdin --tty PODNAME -n NAMESPACE -- /bin/bash`
 
-![Screenshot](testmxn3.PNG)
+![Screenshot](textmxn3.PNG)
 
 Apache MXNet is a deep learning platform that accelerates the transition from research prototyping to production deployment. It is built for full integration into Python that enables you to use it with its libraries and main packages. To check if Apache MXNet is active you can write Python, and use it as a regular Python installation.
 
 `$ python`
 
-![Screenshot](testmxn4.png)
+![Screenshot](textmxn4.PNG)
 
 You have finished the installation. You can read more about Apache MXNet to keep learning and programming.
