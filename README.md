@@ -4,14 +4,14 @@ This documentation will guide you on how to install Apache MXNet on the IBM Clou
 
 ## Pre-requisites
 
-You must have an account created in IBM Cloud. The account needs to be either be *Pay-As-You-Go* or *Subscription*. Click [here](https://cloud.ibm.com/docs/account?topic=account-accounts "here") to read more.
+You must have an account created in IBM Cloud. The account needs to either be *Pay-As-You-Go* or *Subscription*. Click [here](https://cloud.ibm.com/docs/account?topic=account-accounts "here") to read more.
 If you have a Lite account, you can upgrade it. Click [here](https://cloud.ibm.com/docs/account?topic=account-account-getting-started#account-gs-upgrade "here") to learn how to upgrade.
 
 ## Step 1: Provision Kubernetes Cluster
 
 * Click on the search section at the top of the main page, type Kubernetes, and then choose Kubernetes Service.
 
-![](Kubernetes1.PNG)
+![Screenshot](Kubernetes1.PNG)
 
 * In the new window, select between the free and standard type under "Pricing plan". Once selected, click on create.
 
